@@ -81,10 +81,26 @@ nav #icon{
 	padding-top: 100px;
 }
 
+@media (min-width: 1050px){
+	#about_us .text{
+		padding-top: 100px;
+		margin-left: 180px;
+
+		margin-right: 50%;
+	}
+
+	#about_us img{
+		width: 60%;
+		float: right;
+		padding-top: 10px;
+	}
+}
+
 @media (max-width: 1050px){
 	#about_us .text{
 		padding-top: 40px;
 		margin-left: 100px;
+
 	}
 }
 
